@@ -1,0 +1,35 @@
+10.1.125.99 [ lotto ]
+
+sudo su -  [ lotto ]
+
+cd /smslog/logs
+
+> smsc01.log
+> smsbox.log
+
+
+===================
+df -h (it shows the disk sizes)
+
+> /smslog/logs/smsbox.log
+> /smslog/logs/smsc01.log
+
+>nohup
+
+
+df -h
+ls -l /smslog/
+=========================
+Steps for sms clean up (read only environment)
+10.1.125.99
+login [lotto]
+
+sudo su 
+df -h
+....select the sda6/ or reserved memory for sms
+cd /smslog/logs
+>sms01.log
+>smsbox.log  
+
+
+
